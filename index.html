@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="src/styles.css">
     <h1 id="title">User Survey</h1>
     <p id="description">Enter the information below.</p>
   </head>
   <body>
     <form id="survey-form">
-      <label id="name-label">Name<input id="name" type="text" required placeholder="Name" /></label>
-      <label id="email-label">Email<input id="email" type="email" required placeholder="Email" /></label>
-      <label id="number-label">Age<input id="number" type="number" required min="13" max="120" placeholder="Age" /></label>
+      <label id="name-label">Name <input id="name" type="text" required placeholder="Name" /></label>
+      <label id="email-label">Email <input id="email" type="email" required placeholder="Email" /></label>
+      <label id="number-label">Age <input id="number" type="number" required min="13" max="120" placeholder="Age" /></label>
       <select id="dropdown">
         <option></option>
         <option></option>
       </select>
-      <label><input type="radio" value="1" name="1" />1</label>
-      <label><input type="radio" value="2" name="2" />2</label>
-      <label><input type="radio" value="3" name="1" />1</label>
-      <label><input type="radio" value="4" name="2" />2</label>
-      <label><input type="checkbox" value="yes" />yes</label>
-      <label><input type="checkbox" value="no" />no</label>
+      <label for="square"><input id="square" type="radio" value="1" name="1" />Square</label>
+      <label for="circle"><input id="circle" type="radio" value="2" name="2" />Circle</label>
+      <label for="triangle"><input id="triangle" type="radio" value="3" name="3" />Triangle</label>
+      <label for="oval"><input id="oval" type="radio" value="4" name="4" />Oval</label>
+      <label><input type="checkbox" value="yes" /> yes</label>
+      <label><input type="checkbox" value="no" /> no</label>
       <textarea placeholder="You are gay"></textarea>
       <input id="submit" type="submit" />
     </form>

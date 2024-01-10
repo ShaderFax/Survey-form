@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Tahoma';
+    background: linear-gradient(#c300ff, rgb(0, 0, 255));
+    text-align: center;
+    color: #00a2ff;
+    max-width: auto;
+    min-width: auto;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: #040450;
+}
+
+label {
+    color: white;
+    display: block;
+    
+}
