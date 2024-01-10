@@ -11,16 +11,23 @@
       <label id="name-label">Name <input id="name" type="text" required placeholder="Name" /></label>
       <label id="email-label">Email <input id="email" type="email" required placeholder="Email" /></label>
       <label id="number-label">Age <input id="number" type="number" required min="13" max="120" placeholder="Age" /></label>
-      <select id="dropdown">
-        <option></option>
-        <option></option>
+      <p>Favorite Animal</p>
+      <select id="dropdown">  
+        <option>Select</option>
+        <option>Dog</option>
+        <option>Cat</option>
+        <option>Bird</option>
+        <option>Hamster</option>
       </select>
-      <label for="square"><input id="square" type="radio" value="1" name="1" />Square</label>
-      <label for="circle"><input id="circle" type="radio" value="2" name="2" />Circle</label>
-      <label for="triangle"><input id="triangle" type="radio" value="3" name="3" />Triangle</label>
-      <label for="oval"><input id="oval" type="radio" value="4" name="4" />Oval</label>
-      <label><input type="checkbox" value="yes" /> yes</label>
-      <label><input type="checkbox" value="no" /> no</label>
+      <p>Favorite Shape</p>
+      <label for="square"><input id="square" type="radio" value="1" name="shape" />Square</label>
+      <label for="circle"><input id="circle" type="radio" value="2" name="shape" />Circle</label>
+      <label for="triangle"><input id="triangle" type="radio" value="3" name="shape" />Triangle</label>
+      <p>Gender</p>
+      <label for="male"><input id="male" type="radio" value="1" name="select" /> Male</label>
+      <label for="female"><input id="female" type="radio" value="2" name="select" /> Female</label>
+      <label for="other"><input id="other" type="radio" value="3" name="select" /> Other</label>
+      <p>Comments</p>
       <textarea placeholder="You are gay"></textarea>
       <input id="submit" type="submit" />
     </form>

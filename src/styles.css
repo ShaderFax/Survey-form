@@ -2,9 +2,8 @@ h1 {
     font-family: 'Tahoma';
     background: linear-gradient(#c300ff, rgb(0, 0, 255));
     text-align: center;
-    color: #00a2ff;
-    max-width: auto;
-    min-width: auto;
+    color: #a3ddff;
+    padding: 0 0 0 0;
 }
 
 p {
@@ -19,5 +18,10 @@ body {
 label {
     color: white;
     display: block;
-    
+    padding: 0.5em 0.2em;
+    margin: auto;
+}
+
+select {
+    align-items: center;
 }
